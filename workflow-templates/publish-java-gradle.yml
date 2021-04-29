@@ -7,7 +7,8 @@
 # If you need access to the GitHub Maven package registry from other repositories,
 # create a personal access token with the following scopes:
 # - read:packages
-# and overwrite the default GITHUB_TOKEN environment variable with the created PAT
+# and name it "READ_PACKAGES".
+# After this step, overwrite the default GITHUB_TOKEN environment variable with the created PAT
 # in the gradle build and test steps.
 name: Publish packages
 
