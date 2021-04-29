@@ -1,5 +1,6 @@
 {
   "name": "Conventional Changelog Release Workflow",
   "description": "Release your project with one click. Create changelogs on the go and version your code the right way.",
-  "iconName": "ci"
+  "iconName": "ci",
+  "categories": ["Java", "Gradle"]
 }
