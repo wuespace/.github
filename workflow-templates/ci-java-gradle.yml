@@ -82,6 +82,6 @@ jobs:
 
       - name: Build packages 🛠️
         run: chmod +x gradlew && ./gradlew build
-      
+
       - name: Test packages 🛃
         run: ./gradlew test
