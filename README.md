@@ -11,7 +11,7 @@ Simply put your workflow file into the `template-workflows` directory,
 give it a `<workflow-name>.properties.json`
 and select one of our nice icons from the `template-workflows/icons` folder.
 
-Open a Pull Request and take a look!
+Open a Pull Request and we take a look!
 
 More information on GitHub Actions workflow templates here: \
 https://docs.github.com/en/actions/learn-github-actions/sharing-workflows-with-your-organization
