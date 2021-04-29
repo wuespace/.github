@@ -4,9 +4,11 @@
 # This workflow is intended to use with the release workflow also provided in this repository.
 #
 # ******** NOTE ********
-# If you need access to the GitHub Maven package registry from other repositories, create a personal access token with the following scopes:
+# If you need access to the GitHub Maven package registry from other repositories,
+# create a personal access token with the following scopes:
 # - read:packages
-# and overwrite the default GITHUB_TOKEN environment variable with the created PAT in the gradle build and test steps.
+# and overwrite the default GITHUB_TOKEN environment variable with the created PAT
+# in the gradle build and test steps.
 name: Publish packages
 
 # Events that trigger this workflow
@@ -46,8 +48,8 @@ jobs:
       - name: Install dependencies 📚
         run: chmod +x gradlew && ./gradlew
         # enable, if you need access to the GitHub Maven package registry from other repositories
-        #env:
-        #  GITHUB_TOKEN: ${{ secrets.READ_PACKAGES }}
+        # env:
+        #   GITHUB_TOKEN: ${{ secrets.READ_PACKAGES }}
 
       - name: Publish packages 🗜
         run: ./gradlew publish
