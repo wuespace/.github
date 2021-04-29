@@ -1,3 +1,15 @@
+# Before testing this workflow, please create a personal access token with following scopes:
+# - repo
+# - workflow
+# - write:packages
+# - delete:packages
+# - user:email
+#
+# Please take a short look at the conventional commits specification before using this action:
+# https://www.conventionalcommits.org/en/v1.0.0/
+#
+# ******** NOTE ********
+# If your repository default branch is **NOT** restricted, please use the default release workflow instead.
 name: Release
 
 # Events that trigger this workflow
