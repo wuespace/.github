@@ -2,7 +2,7 @@
 # to commit it to your repository.
 #
 # ******** NOTE ********
-# If you need access to the GitHub Maven package registry from other repository,
+# If you need access to the GitHub Maven package registry from other repositories,
 # create a personal access token with the following scopes:
 # - read:packages
 # and name it "READ_PACKAGES".
