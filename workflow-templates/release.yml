@@ -1,3 +1,11 @@
+# For most projects, this workflow file will not need changing; you simply need
+# to commit it to your repository.
+#
+# Before you use this workflow, please take a short look at the conventional commits specification:
+# https://www.conventionalcommits.org/en/v1.0.0/
+#
+# ******** NOTE ********
+# If your repository default branch is restricted, please use the release-protected-branch workflow instead.
 name: Release
 
 # Events that trigger this workflow
