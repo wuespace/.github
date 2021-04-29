@@ -5,7 +5,8 @@
 # https://www.conventionalcommits.org/en/v1.0.0/
 #
 # ******** NOTE ********
-# If your repository default branch is restricted, please use the release-protected-branch workflow instead.
+# If your repository default branch is restricted,
+# please use the release-protected-branch workflow instead.
 name: Release
 
 # Events that trigger this workflow
