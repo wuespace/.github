@@ -1,5 +1,5 @@
 {
   "name": "Conventional Changelog Release Workflow (for protected branches)",
-  "description": "Release your project with one click. Create changelogs on the go and version your code the right way. Intended usr for protected branches.",
+  "description": "Release your project with one click. Create changelogs on the go and version your code the right way. Intended use for protected branches.",
   "iconName": "release"
 }
