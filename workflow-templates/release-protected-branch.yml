@@ -4,6 +4,7 @@
 # - write:packages
 # - delete:packages
 # - user:email
+# and name it "GH_RELEASE_TOKEN".
 #
 # Please take a short look at the conventional commits specification before using this action:
 # https://www.conventionalcommits.org/en/v1.0.0/
@@ -22,6 +23,9 @@ jobs:
     steps:
       - name: Checkout 📥
         uses: actions/checkout@v2.3.4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
 
       - name: Conventional Changelog Action 🎉
         id: changelog
