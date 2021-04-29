@@ -1,6 +1,6 @@
 {
-  "name": "Conventional Changelog Release Workflow",
-  "description": "Release your project with one click. Create changelogs on the go and version your code the right way.",
+  "name": "CI Java gradle build and test workflow",
+  "description": "Build and test your Java code with gradle on every commit.",
   "iconName": "ci",
   "categories": ["Java", "Gradle"]
 }
