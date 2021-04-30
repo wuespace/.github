@@ -1,6 +1,6 @@
 {
   "name": "Publish Java with Gradle on Release",
-  "description": "Publish your Java packages with Gradle on a release dispatch."
+  "description": "Publish your Java packages with Gradle on a release dispatch.",
   "iconName": "publish",
   "categories": ["Java", "Gradle"]
 }
