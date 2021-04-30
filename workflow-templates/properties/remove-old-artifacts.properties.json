@@ -1,0 +1,5 @@
+{
+    "name": "Remove old artifacts",
+    "description": "Remove old artifacts from your repository if you need free space.",
+    "iconName": "cleanup"
+}
